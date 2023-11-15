@@ -29,7 +29,6 @@ POST
 
 
 
-UTILISATION :
+CONCLUSION :
 -------------
-Documentation Swagger:
-La documentation Swagger de l'API est accessible à l'adresse http://localhost:8083/swagger-ui.html. Vous y trouverez une description complète des endpoints et vous pourrez les tester directement depuis l'interface Swagger.
+En conclusion, ce projet démontre avec succès comment l'intégration harmonieuse de technologies telles que Spring Boot, Swagger et Postman peut grandement simplifier la gestion des articles dans un systeme de stockage. La combinaison de ces outils offre une base robuste et efficace, facilitant le développement ultérieur de l'application. Que ce soit pour l'ajout de nouvelles fonctionnalités, l'amélioration de la sécurité ou l'adaptation aux besoins spécifiques de l'institution éducative, cette approche technologique offre une flexibilité essentielle.
