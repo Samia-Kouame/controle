@@ -10,6 +10,7 @@ POSTMAN : Un outil de test d'API qui permet de vérifier le bon fonctionnement d
 JPQL (Java Persistence Query Language) : Un langage de requête pour interagir avec la base de données de manière orientée objet. Dans ce contexte, JPQL a été employé pour interroger et manipuler les données stockées dans la base de données de l'application, assurant des opérations de lecture, d'écriture, et de mise à jour de données efficientes.
 
 SWAGGER : Un outil de documentation d'API générant une documentation interactive pour les endpoints de l'application. Swagger permet aux développeurs et utilisateurs de l'API de comprendre comment utiliser l'application, quelles sont les routes disponibles, et quels sont les paramètres requis.
+
 les taches realisee :
 ---------------------
 La base des données :
