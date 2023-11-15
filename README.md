@@ -1,5 +1,6 @@
 # controle
-Ce projet constitue une application de gestion permettant d'administrer des étudiants, des filières, des rôles, et des utilisateurs. Les étudiants héritent des attributs d'un utilisateur, et l'application offre la possibilité d'affecter des étudiants à des filières et d'assigner des rôles à des utilisateurs.
+
+Ce projet vise à développer une API RESTful pour la gestion des articles au sein d'un système de stockage. L'objectif principal est de créer un service web à l'aide de Spring Boot, permettant une gestion efficace des articles et de leurs catégories associées. En utilisant cette API, il sera possible d'effectuer diverses opérations telles que l'ajout, la modification, la suppression et la consultation d'articles, ainsi que la gestion des catégories auxquelles ils sont attribués. L'utilisation de Spring Boot facilitera le développement de cette API en offrant des fonctionnalités intégrées, une configuration simplifiée et une structure modulaire, favorisant ainsi une mise en œuvre robuste et évolutive.
 
 L'élaboration de cette application a fait appel à diverses technologies et outils :
 
@@ -7,20 +8,28 @@ SPRING BOOT : Un framework Java qui simplifie le développement d'applications w
 
 POSTMAN : Un outil de test d'API qui permet de vérifier le bon fonctionnement des endpoints de l'application. Postman autorise l'envoi de requêtes HTTP aux différentes routes de l'API, facilitant ainsi la validation des réponses et garantissant un échange de données approprié.
 
-JPQL (Java Persistence Query Language) : Un langage de requête pour interagir avec la base de données de manière orientée objet. Dans ce contexte, JPQL a été employé pour interroger et manipuler les données stockées dans la base de données de l'application, assurant des opérations de lecture, d'écriture, et de mise à jour de données efficientes.
-
 SWAGGER : Un outil de documentation d'API générant une documentation interactive pour les endpoints de l'application. Swagger permet aux développeurs et utilisateurs de l'API de comprendre comment utiliser l'application, quelles sont les routes disponibles, et quels sont les paramètres requis.
 
 les taches realisee :
 ---------------------
-La base des données :
-Postman :
-Swagger :
+-La base des données :
+
+![image](https://github.com/Samia-Kouame/controle/assets/147660832/40bff4e9-6160-402e-9dd5-28bc260fff34)
+
+
+-Swagger :
+GET
+![image](https://github.com/Samia-Kouame/controle/assets/147660832/8b856c02-248b-4dba-8e43-dc0727e60985)
+PUT
+![image](https://github.com/Samia-Kouame/controle/assets/147660832/52af142c-9037-4f4f-a4fd-237afcc00687)
+DELETE
+![image](https://github.com/Samia-Kouame/controle/assets/147660832/90c3f7ef-7b50-4681-ac84-6b4fb99eb4c1)
+POST
+![image](https://github.com/Samia-Kouame/controle/assets/147660832/04d83e60-7580-4176-b1f4-a99f0287a51a)
+
+
 
 UTILISATION :
 -------------
-API Endpoints :
-Vous pouvez utiliser Postman pour tester les endpoints de l'API. Importez la collection de requêtes Postman fournie dans le répertoire postman.
-
 Documentation Swagger:
-La documentation Swagger de l'API est accessible à l'adresse http://localhost:8080/swagger-ui.html. Vous y trouverez une description complète des endpoints et vous pourrez les tester directement depuis l'interface Swagger.
+La documentation Swagger de l'API est accessible à l'adresse http://localhost:8083/swagger-ui.html. Vous y trouverez une description complète des endpoints et vous pourrez les tester directement depuis l'interface Swagger.
